@@ -1,0 +1,1 @@
+#define _XTAL_FREQ 10000000UL

@@ -1,0 +1,333 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F4550 ]
+[d frameptr 4065 ]
+"4 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"4 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\eusart.c
+[v _SER_ESCRIBE_CADENA SER_ESCRIBE_CADENA `(v  1 e 1 0 ]
+"12
+[v _SER_ESCRIBE_CARACTER SER_ESCRIBE_CARACTER `(v  1 e 1 0 ]
+"17
+[v _SER_READ SER_READ `(uc  1 e 1 0 ]
+"34
+[v _EUSART_config EUSART_config `(v  1 e 1 0 ]
+"18 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\lcd.c
+[v _LCD_Init_4_Bits LCD_Init_4_Bits `(v  1 e 1 0 ]
+"99
+[v _LCD_Tx_Command LCD_Tx_Command `(v  1 e 1 0 ]
+"177
+[v _LCD_Goto_XY LCD_Goto_XY `(v  1 e 1 0 ]
+"221
+[v _LCD_Put_Char LCD_Put_Char `(v  1 e 1 0 ]
+"295
+[v _LCD_Put_Const_Char LCD_Put_Const_Char `(v  1 e 1 0 ]
+"371
+[v _LCD_Put_String LCD_Put_String `(v  1 e 1 0 ]
+"11 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"63
+[v _GPIO_Init GPIO_Init `(v  1 e 1 0 ]
+[s S372 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"3100 C:\Program Files\Microchip\xc8\v2.46\pic\include\proc\pic18f4550.h
+[s S381 . 1 `uc 1 LB0 1 0 :1:0 
+`uc 1 LB1 1 0 :1:1 
+`uc 1 LB2 1 0 :1:2 
+`uc 1 LB3 1 0 :1:3 
+`uc 1 LB4 1 0 :1:4 
+`uc 1 LB5 1 0 :1:5 
+`uc 1 LB6 1 0 :1:6 
+`uc 1 LB7 1 0 :1:7 
+]
+[u S390 . 1 `S372 1 . 1 0 `S381 1 . 1 0 ]
+[v _LATBbits LATBbits `VES390  1 e 1 @3978 ]
+"3263
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+[s S412 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"3657
+[s S421 . 1 `uc 1 RB0 1 0 :1:0 
+`uc 1 RB1 1 0 :1:1 
+`uc 1 RB2 1 0 :1:2 
+`uc 1 RB3 1 0 :1:3 
+`uc 1 RB4 1 0 :1:4 
+`uc 1 RB5 1 0 :1:5 
+`uc 1 RB6 1 0 :1:6 
+`uc 1 RB7 1 0 :1:7 
+]
+[u S430 . 1 `S412 1 . 1 0 `S421 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES430  1 e 1 @3987 ]
+[s S168 . 1 `uc 1 TRISC0 1 0 :1:0 
+`uc 1 TRISC1 1 0 :1:1 
+`uc 1 TRISC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 TRISC6 1 0 :1:6 
+`uc 1 TRISC7 1 0 :1:7 
+]
+"3875
+[s S175 . 1 `uc 1 RC0 1 0 :1:0 
+`uc 1 RC1 1 0 :1:1 
+`uc 1 RC2 1 0 :1:2 
+`uc 1 . 1 0 :3:3 
+`uc 1 RC6 1 0 :1:6 
+`uc 1 RC7 1 0 :1:7 
+]
+[u S182 . 1 `S168 1 . 1 0 `S175 1 . 1 0 ]
+[v _TRISCbits TRISCbits `VES182  1 e 1 @3988 ]
+"4001
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+[s S77 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 SPPIF 1 0 :1:7 
+]
+"4492
+[s S86 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+[u S92 . 1 `S77 1 . 1 0 `S86 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES92  1 e 1 @3998 ]
+[s S111 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"4977
+[s S120 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 ADEN 1 0 :1:3 
+]
+[s S123 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[s S126 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S129 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S132 . 1 `uc 1 RCD8 1 0 :1:0 
+]
+[u S134 . 1 `S111 1 . 1 0 `S120 1 . 1 0 `S123 1 . 1 0 `S126 1 . 1 0 `S129 1 . 1 0 `S132 1 . 1 0 ]
+[v _RCSTAbits RCSTAbits `VES134  1 e 1 @4011 ]
+[s S25 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"5185
+[s S34 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[s S43 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S46 . 1 `uc 1 TXD8 1 0 :1:0 
+]
+[u S48 . 1 `S25 1 . 1 0 `S34 1 . 1 0 `S43 1 . 1 0 `S46 1 . 1 0 ]
+[v _TXSTAbits TXSTAbits `VES48  1 e 1 @4012 ]
+"5402
+[v _TXREG TXREG `VEuc  1 e 1 @4013 ]
+"5414
+[v _RCREG RCREG `VEuc  1 e 1 @4014 ]
+"5426
+[v _SPBRG SPBRG `VEuc  1 e 1 @4015 ]
+"5438
+[v _SPBRGH SPBRGH `VEuc  1 e 1 @4016 ]
+[s S200 . 1 `uc 1 ABDEN 1 0 :1:0 
+`uc 1 WUE 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 BRG16 1 0 :1:3 
+`uc 1 TXCKP 1 0 :1:4 
+`uc 1 RXDTP 1 0 :1:5 
+`uc 1 RCIDL 1 0 :1:6 
+`uc 1 ABDOVF 1 0 :1:7 
+]
+"6098
+[s S209 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 SCKP 1 0 :1:4 
+`uc 1 . 1 0 :1:5 
+`uc 1 RCMT 1 0 :1:6 
+]
+[s S214 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 RXCKP 1 0 :1:5 
+]
+[s S217 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 W4E 1 0 :1:1 
+]
+[u S220 . 1 `S200 1 . 1 0 `S209 1 . 1 0 `S214 1 . 1 0 `S217 1 . 1 0 ]
+[v _BAUDCONbits BAUDCONbits `VES220  1 e 1 @4024 ]
+"11 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"14
+[v main@recepcion recepcion `[4]ui  1 a 8 27 ]
+"13
+[v main@pass pass `[4]uc  1 a 4 23 ]
+"15
+[v main@i i `ui  1 a 2 37 ]
+"16
+[v main@pass_correct pass_correct `ui  1 a 2 35 ]
+"12
+[v main@F3238 F3238 `[4]uc  1 s 4 F3238 ]
+"61
+} 0
+"17 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\eusart.c
+[v _SER_READ SER_READ `(uc  1 e 1 0 ]
+{
+"25
+} 0
+"12
+[v _SER_ESCRIBE_CARACTER SER_ESCRIBE_CARACTER `(v  1 e 1 0 ]
+{
+[v SER_ESCRIBE_CARACTER@caracter caracter `Cuc  1 a 1 wreg ]
+[v SER_ESCRIBE_CARACTER@caracter caracter `Cuc  1 a 1 wreg ]
+[v SER_ESCRIBE_CARACTER@caracter caracter `Cuc  1 a 1 0 ]
+"15
+} 0
+"4
+[v _SER_ESCRIBE_CADENA SER_ESCRIBE_CADENA `(v  1 e 1 0 ]
+{
+"5
+[v SER_ESCRIBE_CADENA@x x `uc  1 a 1 5 ]
+"4
+[v SER_ESCRIBE_CADENA@cadena cadena `*.31Cuc  1 p 1 0 ]
+[v SER_ESCRIBE_CADENA@tam tam `ui  1 p 2 1 ]
+"10
+} 0
+"371 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\lcd.c
+[v _LCD_Put_String LCD_Put_String `(v  1 e 1 0 ]
+{
+"373
+[v LCD_Put_String@indice indice `uc  1 a 1 16 ]
+"371
+[v LCD_Put_String@str str `*.31uc  1 p 1 14 ]
+"379
+} 0
+"221
+[v _LCD_Put_Char LCD_Put_Char `(v  1 e 1 0 ]
+{
+[v LCD_Put_Char@byte byte `uc  1 a 1 wreg ]
+"224
+[v LCD_Put_Char@d0 d0 `uc  1 a 1 12 ]
+[v LCD_Put_Char@d1 d1 `uc  1 a 1 11 ]
+[v LCD_Put_Char@d2 d2 `uc  1 a 1 10 ]
+[v LCD_Put_Char@d3 d3 `uc  1 a 1 9 ]
+[v LCD_Put_Char@d4 d4 `uc  1 a 1 8 ]
+[v LCD_Put_Char@d5 d5 `uc  1 a 1 7 ]
+[v LCD_Put_Char@d6 d6 `uc  1 a 1 6 ]
+[v LCD_Put_Char@d7 d7 `uc  1 a 1 5 ]
+"221
+[v LCD_Put_Char@byte byte `uc  1 a 1 wreg ]
+"227
+[v LCD_Put_Char@byte byte `uc  1 a 1 13 ]
+"286
+} 0
+"18
+[v _LCD_Init_4_Bits LCD_Init_4_Bits `(v  1 e 1 0 ]
+{
+"20
+[v LCD_Init_4_Bits@conta conta `uc  1 a 1 15 ]
+"85
+} 0
+"177
+[v _LCD_Goto_XY LCD_Goto_XY `(v  1 e 1 0 ]
+{
+[v LCD_Goto_XY@pos_x pos_x `uc  1 a 1 wreg ]
+"179
+[v LCD_Goto_XY@offset offset `uc  1 a 1 17 ]
+[v LCD_Goto_XY@col col `uc  1 a 1 16 ]
+[v LCD_Goto_XY@comando comando `uc  1 a 1 15 ]
+"177
+[v LCD_Goto_XY@pos_x pos_x `uc  1 a 1 wreg ]
+[v LCD_Goto_XY@pos_y pos_y `uc  1 p 1 14 ]
+[v LCD_Goto_XY@pos_x pos_x `uc  1 a 1 18 ]
+"210
+} 0
+"99
+[v _LCD_Tx_Command LCD_Tx_Command `(v  1 e 1 0 ]
+{
+[v LCD_Tx_Command@command command `uc  1 a 1 wreg ]
+"102
+[v LCD_Tx_Command@d0 d0 `uc  1 a 1 12 ]
+[v LCD_Tx_Command@d1 d1 `uc  1 a 1 11 ]
+[v LCD_Tx_Command@d2 d2 `uc  1 a 1 10 ]
+[v LCD_Tx_Command@d3 d3 `uc  1 a 1 9 ]
+[v LCD_Tx_Command@d4 d4 `uc  1 a 1 8 ]
+[v LCD_Tx_Command@d5 d5 `uc  1 a 1 7 ]
+[v LCD_Tx_Command@d6 d6 `uc  1 a 1 6 ]
+[v LCD_Tx_Command@d7 d7 `uc  1 a 1 5 ]
+"99
+[v LCD_Tx_Command@command command `uc  1 a 1 wreg ]
+"105
+[v LCD_Tx_Command@command command `uc  1 a 1 13 ]
+"165
+} 0
+"63 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\main.c
+[v _GPIO_Init GPIO_Init `(v  1 e 1 0 ]
+{
+"69
+} 0
+"34 F:\Proyectos\Proyectos_PIC_Proteus\DutyCycle_controlled_by_potentiometter\LAB42.X\eusart.c
+[v _EUSART_config EUSART_config `(v  1 e 1 0 ]
+{
+"53
+} 0
