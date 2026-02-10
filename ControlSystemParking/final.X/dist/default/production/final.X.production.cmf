@@ -1,0 +1,708 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$dist/default/production\final.X.production.o
+cinit CODE 0 1082 1082 3A 1 2
+idloc IDLOC 5 200000 200000 8 1 1
+text0 CODE 0 868 868 65E 1 2
+text1 CODE 0 EC6 EC6 9A 1 2
+text2 CODE 0 FD4 FD4 64 1 2
+text3 CODE 0 F60 F60 74 1 2
+text4 CODE 0 10BC 10BC 26 1 2
+text5 CODE 0 10E2 10E2 26 1 2
+text6 CODE 0 114A 114A 16 1 2
+text7 CODE 0 1038 1038 4A 1 2
+text8 CODE 0 112E 112E 1C 1 2
+text9 CODE 0 1108 1108 26 1 2
+idataCOMRAM CODE 0 1160 1160 A 1 1
+cstackCOMRAM COMRAM 1 1 1 30 1 1
+smallconst SMALLCONST 0 800 800 68 1 2
+dataCOMRAM COMRAM 1 31 31 A 1 1
+bssCOMRAM COMRAM 1 3B 3B 8 1 1
+config CONFIG 4 300000 300000 E 1 1
+$C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+idloc IDLOC 5 200000 200000 8 1 1
+init CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 E 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 60-7FF 1
+SFR F60-FFF 1
+BANK0 60-FF 1
+BANK1 100-1FF 1
+BANK2 200-2FF 1
+BANK3 300-3FF 1
+BANK4 400-4FF 1
+BANK5 500-5FF 1
+BANK6 600-6FF 1
+BANK7 700-7FF 1
+CONST 4-7FF 1
+CONST 116A-7FFF 1
+SMALLCONST 116A-7FFF 1
+CODE 4-7FF 1
+CODE 116A-7FFF 1
+BIGRAM 43-7FF 1
+BIGSFR F60-FFF 1
+COMRAM 43-5F 1
+EEDATA F00000-F000FF 1
+MEDIUMCONST 116A-7FFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\final.X.production.o
+1108 text9 CODE >234:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1108 text9 CODE >236:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+110C text9 CODE >237:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+110E text9 CODE >238:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1110 text9 CODE >239:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1112 text9 CODE >240:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1114 text9 CODE >241:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1118 text9 CODE >242:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+111C text9 CODE >243:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+111E text9 CODE >244:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1120 text9 CODE >245:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1124 text9 CODE >246:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1128 text9 CODE >247:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+112A text9 CODE >248:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+112C text9 CODE >249:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+112E text8 CODE >33:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+112E text8 CODE >34:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1132 text8 CODE >35:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1136 text8 CODE >36:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1138 text8 CODE >37:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+113A text8 CODE >38:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+113C text8 CODE >39:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+113E text8 CODE >40:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1140 text8 CODE >41:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1142 text8 CODE >42:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1144 text8 CODE >44:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1146 text8 CODE >45:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1148 text8 CODE >46:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1038 text7 CODE >3:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1038 text7 CODE >4:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+103C text7 CODE >5:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1044 text7 CODE >6:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1054 text7 CODE >7:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1062 text7 CODE >8:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1080 text7 CODE >9:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+114A text6 CODE >11:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+114C text6 CODE >12:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1150 text6 CODE >13:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+115E text6 CODE >14:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+10E2 text5 CODE >16:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+10E2 text5 CODE >17:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+10F0 text5 CODE >18:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+10FE text5 CODE >19:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1100 text5 CODE >20:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1102 text5 CODE >21:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1102 text5 CODE >22:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1104 text5 CODE >23:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+1106 text5 CODE >24:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\eusart.c
+10BC text4 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+10BC text4 CODE >37:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+10C8 text4 CODE >38:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+10D0 text4 CODE >39:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+10D8 text4 CODE >52:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+10E0 text4 CODE >53:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\Umul16.c
+F60 text3 CODE >7:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F60 text3 CODE >13:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F68 text3 CODE >14:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F7A text3 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F7E text3 CODE >16:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F82 text3 CODE >17:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F88 text3 CODE >18:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F8A text3 CODE >16:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F98 text3 CODE >21:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+F9E text3 CODE >22:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FB4 text3 CODE >23:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FBC text3 CODE >24:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FBE text3 CODE >26:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FC4 text3 CODE >27:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FCA text3 CODE >28:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FCA text3 CODE >29:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FD2 text3 CODE >30:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwdiv.c
+FD4 text2 CODE >7:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+FD4 text2 CODE >12:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+FE6 text2 CODE >13:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+FEA text2 CODE >14:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+FEE text2 CODE >15:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+FF4 text2 CODE >16:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+FF6 text2 CODE >14:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+1004 text2 CODE >19:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+101A text2 CODE >20:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+1022 text2 CODE >21:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+1028 text2 CODE >22:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+102E text2 CODE >23:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+102E text2 CODE >24:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+1036 text2 CODE >25:C:\Program Files\Microchip\xc8\v2.46\pic\sources\c99\common\lwmod.c
+EC6 text1 CODE >251:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EC6 text1 CODE >252:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EE2 text1 CODE >253:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+F12 text1 CODE >254:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+F42 text1 CODE >255:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+F5E text1 CODE >256:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+868 text0 CODE >14:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+868 text0 CODE >16:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+870 text0 CODE >17:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+878 text0 CODE >18:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+880 text0 CODE >20:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+888 text0 CODE >22:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+88C text0 CODE >23:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+890 text0 CODE >24:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+8A0 text0 CODE >25:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+8B0 text0 CODE >26:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+8C6 text0 CODE >27:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+8D6 text0 CODE >29:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+8E6 text0 CODE >31:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+8EA text0 CODE >32:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+906 text0 CODE >33:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+926 text0 CODE >34:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+93A text0 CODE >35:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+962 text0 CODE >36:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+96A text0 CODE >37:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+982 text0 CODE >38:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+9D6 text0 CODE >41:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+9DE text0 CODE >42:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+9E6 text0 CODE >43:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+9F2 text0 CODE >44:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A02 text0 CODE >45:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A20 text0 CODE >48:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A32 text0 CODE >50:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A36 text0 CODE >52:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A62 text0 CODE >53:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A6A text0 CODE >54:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A72 text0 CODE >55:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A7E text0 CODE >56:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+A8E text0 CODE >57:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AA8 text0 CODE >58:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AB0 text0 CODE >31:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AC2 text0 CODE >61:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AD2 text0 CODE >65:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AEE text0 CODE >66:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AF0 text0 CODE >67:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+AFE text0 CODE >68:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B00 text0 CODE >69:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B10 text0 CODE >70:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B20 text0 CODE >71:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B2C text0 CODE >72:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B2E text0 CODE >73:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B30 text0 CODE >74:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B32 text0 CODE >75:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B36 text0 CODE >76:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B42 text0 CODE >77:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B44 text0 CODE >78:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B46 text0 CODE >79:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B54 text0 CODE >80:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B56 text0 CODE >81:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B58 text0 CODE >82:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B64 text0 CODE >83:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B66 text0 CODE >84:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B68 text0 CODE >85:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B76 text0 CODE >86:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B78 text0 CODE >87:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B7A text0 CODE >88:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B7C text0 CODE >89:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B88 text0 CODE >90:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B8A text0 CODE >91:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B98 text0 CODE >92:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B9A text0 CODE >93:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B9C text0 CODE >94:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+B9E text0 CODE >75:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BAC text0 CODE >96:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BC2 text0 CODE >97:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BC6 text0 CODE >98:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BCA text0 CODE >99:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BDA text0 CODE >103:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BF6 text0 CODE >104:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+BF8 text0 CODE >105:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C06 text0 CODE >106:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C08 text0 CODE >107:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C18 text0 CODE >108:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C24 text0 CODE >109:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C26 text0 CODE >110:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C28 text0 CODE >111:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C2A text0 CODE >112:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C2E text0 CODE >114:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C3A text0 CODE >115:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C3C text0 CODE >116:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C3E text0 CODE >117:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C4C text0 CODE >118:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C4E text0 CODE >119:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C50 text0 CODE >120:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C5C text0 CODE >121:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C5E text0 CODE >122:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C60 text0 CODE >123:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C6E text0 CODE >124:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C70 text0 CODE >125:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C72 text0 CODE >126:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C74 text0 CODE >127:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C80 text0 CODE >128:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C82 text0 CODE >129:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C90 text0 CODE >130:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C92 text0 CODE >131:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C94 text0 CODE >132:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+C96 text0 CODE >112:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CA4 text0 CODE >134:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CB6 text0 CODE >135:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CBC text0 CODE >139:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CCA text0 CODE >140:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CDA text0 CODE >141:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CDC text0 CODE >142:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CEC text0 CODE >143:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CEE text0 CODE >144:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+CFC text0 CODE >145:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D08 text0 CODE >146:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D0A text0 CODE >147:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D0C text0 CODE >148:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D0E text0 CODE >149:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D12 text0 CODE >150:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D1E text0 CODE >151:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D20 text0 CODE >152:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D22 text0 CODE >153:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D30 text0 CODE >154:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D32 text0 CODE >155:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D34 text0 CODE >156:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D40 text0 CODE >157:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D42 text0 CODE >158:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D44 text0 CODE >159:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D52 text0 CODE >160:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D54 text0 CODE >161:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D56 text0 CODE >162:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D58 text0 CODE >163:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D64 text0 CODE >164:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D66 text0 CODE >165:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D74 text0 CODE >166:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D76 text0 CODE >167:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D78 text0 CODE >168:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D7A text0 CODE >149:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D88 text0 CODE >171:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D88 text0 CODE >172:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D96 text0 CODE >173:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+D98 text0 CODE >174:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DA8 text0 CODE >175:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DAA text0 CODE >176:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DB8 text0 CODE >177:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DC4 text0 CODE >178:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DC6 text0 CODE >179:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DC8 text0 CODE >180:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DCA text0 CODE >181:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DCE text0 CODE >182:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DDA text0 CODE >183:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DDC text0 CODE >184:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DDE text0 CODE >185:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DEC text0 CODE >186:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DEE text0 CODE >187:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DF0 text0 CODE >188:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DFC text0 CODE >189:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+DFE text0 CODE >190:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E00 text0 CODE >191:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E0E text0 CODE >192:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E10 text0 CODE >193:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E12 text0 CODE >194:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E14 text0 CODE >195:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E20 text0 CODE >196:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E22 text0 CODE >197:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E30 text0 CODE >198:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E32 text0 CODE >199:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E34 text0 CODE >200:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E36 text0 CODE >181:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E44 text0 CODE >202:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E44 text0 CODE >203:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E46 text0 CODE >204:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E48 text0 CODE >205:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E4A text0 CODE >206:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E56 text0 CODE >207:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E62 text0 CODE >208:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E64 text0 CODE >209:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E66 text0 CODE >210:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E74 text0 CODE >211:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E76 text0 CODE >212:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E78 text0 CODE >213:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E84 text0 CODE >214:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E86 text0 CODE >215:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E88 text0 CODE >216:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E96 text0 CODE >217:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E98 text0 CODE >218:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E9A text0 CODE >219:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+E9C text0 CODE >220:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EA8 text0 CODE >221:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EAA text0 CODE >222:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EB8 text0 CODE >223:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EBA text0 CODE >224:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+EBC text0 CODE >225:F:\Proyectos\Proyectos_PIC_Proteus\IRSENSOR+SERVO+LCD\final.X\main.c
+1082 cinit CODE >1027:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1082 cinit CODE >1029:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1082 cinit CODE >1032:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1082 cinit CODE >1062:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1084 cinit CODE >1063:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1086 cinit CODE >1064:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1088 cinit CODE >1065:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+108A cinit CODE >1066:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+108C cinit CODE >1067:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+108E cinit CODE >1068:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1092 cinit CODE >1069:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1096 cinit CODE >1070:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1096 cinit CODE >1071:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+1098 cinit CODE >1072:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+109C cinit CODE >1073:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+109E cinit CODE >1074:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10A0 cinit CODE >1075:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10A2 cinit CODE >1079:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10A6 cinit CODE >1080:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10A8 cinit CODE >1081:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10A8 cinit CODE >1082:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10AA cinit CODE >1083:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10AC cinit CODE >1084:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10AE cinit CODE >1090:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10AE cinit CODE >1093:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10B0 cinit CODE >1094:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10B2 cinit CODE >1095:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10B4 cinit CODE >1096:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10B6 cinit CODE >1097:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+10B8 cinit CODE >1098:C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+___lwmod@counter 5 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Lmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\final.X.production.o
+__Hspace_0 116A 0 ABS 0 - dist/default/production\final.X.production.o
+__Hspace_1 43 0 ABS 0 - dist/default/production\final.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\final.X.production.o
+__Hspace_4 60000E 0 ABS 0 - dist/default/production\final.X.production.o
+_SER_ESCRIBE_CARACTER 114A 0 CODE 0 text6 dist/default/production\final.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\final.X.production.o
+__mediumconst 0 0 MEDIUMCONST 0 mediumconst C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\final.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\final.X.production.o
+main@i 2B 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Lsmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\final.X.production.o
+_LATB F8A 0 ABS 0 - dist/default/production\final.X.production.o
+_LATD F8C 0 ABS 0 - dist/default/production\final.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+_main 868 0 CODE 0 text0 dist/default/production\final.X.production.o
+___stack_hi 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+___stack_lo 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+start 0 0 CODE 0 init C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+convierte@numero D 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\final.X.production.o
+?___wmul 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+SER_ESCRIBE_CADENA@x 6 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\final.X.production.o
+__HdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\final.X.production.o
+__accesstop 60 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+intlevel0 0 0 CODE 0 text C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+intlevel1 0 0 CODE 0 text C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+intlevel2 0 0 CODE 0 text C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+intlevel3 0 0 CODE 0 text C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\final.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\final.X.production.o
+_Configuracion_Registros 1108 0 CODE 0 text9 dist/default/production\final.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\final.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\final.X.production.o
+__end_of_Configuracion_Registros 112E 0 CODE 0 text9 dist/default/production\final.X.production.o
+__pidataCOMRAM 1160 0 CODE 0 idataCOMRAM dist/default/production\final.X.production.o
+___wmul@multiplicand 3 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__LdataCOMRAM 0 0 ABS 0 dataCOMRAM dist/default/production\final.X.production.o
+_display 31 0 COMRAM 1 dataCOMRAM dist/default/production\final.X.production.o
+__Hintcode_body 0 0 ABS 0 intcode_body dist/default/production\final.X.production.o
+__end_of___wmul 10E2 0 CODE 0 text4 dist/default/production\final.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\final.X.production.o
+_BAUDCONbits FB8 0 ABS 0 - dist/default/production\final.X.production.o
+__Hmediumconst 0 0 MEDIUMCONST 0 mediumconst dist/default/production\final.X.production.o
+__Hintcodelo 0 0 CODE 0 intcodelo dist/default/production\final.X.production.o
+___lwmod@divisor 3 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__end_of___lwdiv FD4 0 CODE 0 text3 dist/default/production\final.X.production.o
+__end_of___lwmod 1038 0 CODE 0 text2 dist/default/production\final.X.production.o
+_EUSART_config 112E 0 CODE 0 text8 dist/default/production\final.X.production.o
+___lwdiv@quotient A 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__LidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\final.X.production.o
+_SER_READ 10E2 0 CODE 0 text5 dist/default/production\final.X.production.o
+___lwmod@dividend 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Lintcodelo 0 0 CODE 0 intcodelo dist/default/production\final.X.production.o
+__end_of_SER_ESCRIBE_CADENA 1082 0 CODE 0 text7 dist/default/production\final.X.production.o
+start_initialization 1082 0 CODE 0 cinit dist/default/production\final.X.production.o
+__end_of_convierte F60 0 CODE 0 text1 dist/default/production\final.X.production.o
+__end_of_SER_READ 1108 0 CODE 0 text5 dist/default/production\final.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\final.X.production.o
+_TRISAbits F92 0 ABS 0 - dist/default/production\final.X.production.o
+_TRISCbits F94 0 ABS 0 - dist/default/production\final.X.production.o
+_TRISEbits F96 0 ABS 0 - dist/default/production\final.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\final.X.production.o
+_SPBRGH FB0 0 ABS 0 - dist/default/production\final.X.production.o
+_convierte EC6 0 CODE 0 text1 dist/default/production\final.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+_SER_ESCRIBE_CADENA 1038 0 CODE 0 text7 dist/default/production\final.X.production.o
+__Hbank0 0 0 ABS 0 bank0 dist/default/production\final.X.production.o
+__Hbank1 0 0 ABS 0 bank1 dist/default/production\final.X.production.o
+__Hbank2 0 0 ABS 0 bank2 dist/default/production\final.X.production.o
+__Hbank3 0 0 ABS 0 bank3 dist/default/production\final.X.production.o
+__Hbank4 0 0 ABS 0 bank4 dist/default/production\final.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\final.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\final.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\final.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\final.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\final.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\final.X.production.o
+__Hidloc 200008 0 IDLOC 5 idloc dist/default/production\final.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\final.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\final.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\final.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\final.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\final.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\final.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\final.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\final.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\final.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\final.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\final.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\final.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\final.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\final.X.production.o
+___lwdiv@counter C 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\final.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\final.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\final.X.production.o
+__smallconst 800 0 SMALLCONST 0 smallconst C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\final.X.production.o
+__Hconfig 30000E 0 CONFIG 4 config dist/default/production\final.X.production.o
+__Lbank0 0 0 ABS 0 bank0 dist/default/production\final.X.production.o
+__Lbank1 0 0 ABS 0 bank1 dist/default/production\final.X.production.o
+__Lbank2 0 0 ABS 0 bank2 dist/default/production\final.X.production.o
+__Lbank3 0 0 ABS 0 bank3 dist/default/production\final.X.production.o
+__Lbank4 0 0 ABS 0 bank4 dist/default/production\final.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\final.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\final.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\final.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\final.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\final.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\final.X.production.o
+__Lidloc 0 0 IDLOC 5 idloc dist/default/production\final.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\final.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\final.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\final.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\final.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\final.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\final.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\final.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\final.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\final.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\final.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\final.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\final.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\final.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\final.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\final.X.production.o
+__Lintcode_body 0 0 ABS 0 intcode_body dist/default/production\final.X.production.o
+_PORTAbits F80 0 ABS 0 - dist/default/production\final.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\final.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\final.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\final.X.production.o
+__Hinit 4 0 CODE 0 init dist/default/production\final.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\final.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\final.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\final.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\final.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\final.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\final.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\final.X.production.o
+__Linit 0 0 CODE 0 init dist/default/production\final.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\final.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\final.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\final.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\final.X.production.o
+___wmul 10BC 0 CODE 0 text4 dist/default/production\final.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\final.X.production.o
+__Hintret 0 0 ABS 0 intret dist/default/production\final.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\final.X.production.o
+__S0 116A 0 ABS 0 - dist/default/production\final.X.production.o
+__S1 43 0 ABS 0 - dist/default/production\final.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\final.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\final.X.production.o
+_decena 3D 0 COMRAM 1 bssCOMRAM dist/default/production\final.X.production.o
+__HidataCOMRAM 0 0 ABS 0 idataCOMRAM dist/default/production\final.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\final.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\final.X.production.o
+SER_ESCRIBE_CADENA@tam 2 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+main@recepcion 13 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Lintentry 0 0 ABS 0 intentry dist/default/production\final.X.production.o
+__end_of_EUSART_config 114A 0 CODE 0 text8 dist/default/production\final.X.production.o
+__Hramtop 800 0 RAM 0 ramtop dist/default/production\final.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\final.X.production.o
+__activetblptr 1 0 ABS 0 - dist/default/production\final.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\final.X.production.o
+_RCSTAbits FAB 0 ABS 0 - dist/default/production\final.X.production.o
+__end_of_SER_ESCRIBE_CARACTER 1160 0 CODE 0 text6 dist/default/production\final.X.production.o
+_millar 41 0 COMRAM 1 bssCOMRAM dist/default/production\final.X.production.o
+___lwdiv F60 0 CODE 0 text3 dist/default/production\final.X.production.o
+___lwmod FD4 0 CODE 0 text2 dist/default/production\final.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\final.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\final.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\final.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\final.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\final.X.production.o
+___wmul@multiplier 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+_LATBbits F8A 0 ABS 0 - dist/default/production\final.X.production.o
+_LATDbits F8C 0 ABS 0 - dist/default/production\final.X.production.o
+_LATEbits F8D 0 ABS 0 - dist/default/production\final.X.production.o
+__Lsivt_hi 0 0 CODE 0 sivt_hi dist/default/production\final.X.production.o
+__Lsivt_lo 0 0 CODE 0 sivt_lo dist/default/production\final.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\final.X.production.o
+main@aforo 2D 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+___lwdiv@divisor 8 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+main@state 27 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\final.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+_unidad 3B 0 COMRAM 1 bssCOMRAM dist/default/production\final.X.production.o
+stackhi 0 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+stacklo 0 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__Lintcode 0 0 CODE 0 intcode dist/default/production\final.X.production.o
+__Lintret 0 0 ABS 0 intret dist/default/production\final.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\final.X.production.o
+_ADCON1bits FC1 0 ABS 0 - dist/default/production\final.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\final.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\final.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\final.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\final.X.production.o
+main@cifras 2F 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__pbssCOMRAM 3B 0 COMRAM 1 bssCOMRAM dist/default/production\final.X.production.o
+_PIR1bits F9E 0 ABS 0 - dist/default/production\final.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\final.X.production.o
+end_of_initialization 10AE 0 CODE 0 cinit dist/default/production\final.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\final.X.production.o
+__Hintentry 0 0 ABS 0 intentry dist/default/production\final.X.production.o
+___lwdiv@dividend 6 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+?___lwdiv 6 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+?___lwmod 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Hreset_vec 0 0 CODE 0 reset_vec dist/default/production\final.X.production.o
+__Lramtop 800 0 RAM 0 ramtop dist/default/production\final.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\final.X.production.o
+__pcinit 1082 0 CODE 0 cinit dist/default/production\final.X.production.o
+__ptext0 868 0 CODE 0 text0 dist/default/production\final.X.production.o
+__ptext1 EC6 0 CODE 0 text1 dist/default/production\final.X.production.o
+__ptext2 FD4 0 CODE 0 text2 dist/default/production\final.X.production.o
+__ptext3 F60 0 CODE 0 text3 dist/default/production\final.X.production.o
+__ptext4 10BC 0 CODE 0 text4 dist/default/production\final.X.production.o
+__ptext5 10E2 0 CODE 0 text5 dist/default/production\final.X.production.o
+__ptext6 114A 0 CODE 0 text6 dist/default/production\final.X.production.o
+__ptext7 1038 0 CODE 0 text7 dist/default/production\final.X.production.o
+__ptext8 112E 0 CODE 0 text8 dist/default/production\final.X.production.o
+__ptext9 1108 0 CODE 0 text9 dist/default/production\final.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\final.X.production.o
+__ramtop 800 0 RAM 0 ramtop C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\final.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\final.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\final.X.production.o
+__psmallconst 800 0 SMALLCONST 0 smallconst dist/default/production\final.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\final.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+___heap_lo 0 0 ABS 0 - C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+main@recibido 29 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\final.X.production.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\USER\AppData\Local\Temp\xcAs95c.\driver_tmp_9.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\final.X.production.o
+__end_of__initialization 10AE 0 CODE 0 cinit dist/default/production\final.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\final.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\final.X.production.o
+_centena 3F 0 COMRAM 1 bssCOMRAM dist/default/production\final.X.production.o
+__pcstackCOMRAM 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+_TXSTAbits FAC 0 ABS 0 - dist/default/production\final.X.production.o
+__end_of_main EC6 0 CODE 0 text0 dist/default/production\final.X.production.o
+_RCREG FAE 0 ABS 0 - dist/default/production\final.X.production.o
+_SPBRG FAF 0 ABS 0 - dist/default/production\final.X.production.o
+_TRISB F93 0 ABS 0 - dist/default/production\final.X.production.o
+_TRISD F95 0 ABS 0 - dist/default/production\final.X.production.o
+_TXREG FAD 0 ABS 0 - dist/default/production\final.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\final.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\final.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\final.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\final.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\final.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\final.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\final.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\final.X.production.o
+__Hsivt_hi 0 0 CODE 0 sivt_hi dist/default/production\final.X.production.o
+__Hsivt_lo 0 0 CODE 0 sivt_lo dist/default/production\final.X.production.o
+__initialization 1082 0 CODE 0 cinit dist/default/production\final.X.production.o
+__pdataCOMRAM 31 0 COMRAM 1 dataCOMRAM dist/default/production\final.X.production.o
+SER_ESCRIBE_CARACTER@caracter 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\final.X.production.o
+___wmul@product 5 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Hsmallconst 868 0 SMALLCONST 0 smallconst dist/default/production\final.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\final.X.production.o
+SER_ESCRIBE_CADENA@cadena 1 0 COMRAM 1 cstackCOMRAM dist/default/production\final.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\final.X.production.o
+__Hintcode 0 0 CODE 0 intcode dist/default/production\final.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+text0 0 868 868 902 1
+cstackCOMRAM 1 1 1 42 1
+reset_vec 0 0 0 4 1
+smallconst 0 800 800 68 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
